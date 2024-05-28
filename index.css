@@ -1,0 +1,200 @@
+/*align-content: stretch|center|flex-start|flex-end|space-between|space-around|space-evenly|initial|inherit; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+@font-face {
+  font-family: "galaxy";
+  src: url("https://cdn.jsdelivr.net/gh/rodcrespo/blindcap-tizen/fonts/SamsungSharpSans-Bold.ttf");
+}
+
+body{
+  background: #f2f5f3;
+}
+.rear-back{
+  background: #faf9f7;
+  max-width: 280px;
+  height: 600px;
+  align-content: center;
+  align-self: center;
+  margin-left: 670px;
+  margin-top: 40px;
+  border-radius: 20px;
+  position: relative;
+   box-shadow:
+     -1px 3px 5px 2px #262525,
+     -5px 2px 0px 5px #525050,
+     -12px 3px 1px 4px #b5b0b0,
+     -25px 15px 45px 3px black;
+
+    rotate: 20deg;
+}
+.camera-part{
+  position: absolute;
+  width:100px;
+  height:170px;
+  border: 1px solid #c3c3c3;
+  margin-left: 22px;
+  margin-top:23px;
+  border-radius: 20px;
+  
+     /* --shadow: 
+    -.2rem -.2rem 1rem hsl(0 0% 60% / .75),
+    .2rem .2rem 1rem hsl(0 0% 60% / .5);
+  box-shadow: var(--shadow);
+  outline: none; */
+  border: none;
+  background-color:white;
+ 
+  box-shadow:
+   -2px 0px 5px 5px #d1d1cf,
+   -5px -2px 2px 0px #e0e0de,
+   5px 0px 1px 0px #e0e0de,
+   2px 2px 2px 0px #d1d1cf;
+}
+.circle1{
+  width:10px;
+  height:10px;
+  border: 1px solid #c3c3c3;
+  margin-left: 25px;
+  margin-top:28px;
+  border-radius: 50%;
+  background-color: #665202;
+  box-shadow: 1px 0px 0  1px #fff9a1,
+              0px 0px 0  3px gray,
+				      0px  0px 0   12px black,
+				      0px 0px 0 16px white,
+              -1px 1px 3px 17px black;
+}
+.circle2{
+  width:10px;
+  height:10px;
+  border: 1px solid #c3c3c3;
+  margin-left: 25px;
+  margin-top:40px;
+  border-radius: 50%;
+  
+    background-color: black;
+  box-shadow: 1px 0px 0  1px yellow,
+              0px 0px 0  3px gray,
+				      0px  0px 0   12px black,
+				      0px 0px 0 16px white,
+              -1px 1px 3px 17px black;
+}
+
+.circle3{
+  width:10px;
+  height:10px;
+  border: 1px solid #c3c3c3;
+  margin-left: 25px;
+  margin-top:40px;
+  border-radius: 50%;
+    background-color: #fcfbc2;
+  box-shadow: 1px 0px 0  1px yellow,
+              0px 0px 0  3px gray,
+				      0px  0px 0   12px black,
+				      0px 0px 0 16px white,
+              -1px 1px 3px 17px black;
+}
+.circle4{
+  width:10px;
+  height:10px;
+  border: 1px solid #c3c3c3;
+  margin-left: 69px;
+  margin-top:-100px;
+  border-radius: 50%;
+  
+      background-color: grey;
+  box-shadow: 0px 0px 0  1px gray,
+				    0px  0px 0   8px black,
+				    0px 0px 0 9px white,
+            0px 1px 3px 11px grey;
+}
+.circle5{
+  width:10px;
+  height:10px;
+  border: 1px solid #c3c3c3;
+  margin-left: 69px;
+  margin-top: 45px;
+  border-radius: 50%;
+  
+      background-color: #f0f723;
+  box-shadow: 0px 2px 0  1px gray,
+				    0px  0px 0   9px black,
+				    0px 0px 0 9px white,
+            0px 1px 0 11px grey;
+}
+
+.rect1{
+  width:5px;
+  height:80px;
+  border: 1px solid black;
+  margin-left: -42px;
+  margin-top: -50px;
+  border-radius: 25%;
+  background-color: grey;
+ box-shadow:
+   0px 3px 5px 2px black,
+   0px 5px 0px 0px black;
+}
+
+.rect2{
+  width:5px;
+  height:35px;
+  border: 1px solid black;
+  margin-left: -42px;
+  margin-top: 20px;
+  border-radius: 25%;
+  background-color: grey;
+ box-shadow:
+   0px 3px 5px 2px black,
+   0px 5px 0px 0px black;
+}
+
+.capany-logo{
+  position: absolute;
+  margin-left: 39px;
+  margin-top:490px;
+  text-align: center;
+  color: #cfcecc;
+}
+.capany-logo p{
+  font-family: "galaxy", "Helvetica", monospace;
+  text-align: center;
+  font-size: 5px;
+  padding-bottom: 5px;
+  margin-left: 70px;
+  line-height: 0.01;
+}
+
+.img1{
+  width: 100px;
+  position: absolute;
+  left: 50px;
+  top: -25px;
+  filter: invert(0%);
+  -webkit-filter: invert(10%);
+}
+.img2{
+  width: 35px;
+  position: absolute;
+  left: 45px;
+  top: 37px;
+  filter: invert(50%);
+  -webkit-filter: invert(90%);
+}
+.img3{
+  width: 20px;
+  position: absolute;
+  left: 120px;
+  top: 35px;
+  filter: invert(50%);
+  -webkit-filter: invert(80%);
+}
+.img4{
+  width: 35px;
+  position: absolute;
+  left: 90px;
+  top: 37px;
+  filter: invert(50%);
+  -webkit-filter: invert(80%);
+}
